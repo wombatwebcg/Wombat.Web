@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Authors>wombatwebcg</Authors>
+    <Company>wombatwebcg</Company>
+    <Description>网络通用基础库</Description>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="LinqKit" Version="1.2.3" />
+		<PackageReference Include="Wombat.Infrastructure" Version="2.0.6" />
+	</ItemGroup>
+</Project>

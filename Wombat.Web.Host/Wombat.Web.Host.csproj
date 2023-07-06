@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>wombatwebcg</Authors>
+    <Company>wombatwebcg</Company>
+    <Description>通用类型主机</Description>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="Caching.CSRedis" Version="3.8.670" />
+    <PackageReference Include="CSRedisCore" Version="3.8.670" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.19" />
+    <PackageReference Include="NSwag.Annotations" Version="13.19.0" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.19.0" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wombat.Web.Infrastructure\Wombat.Web.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

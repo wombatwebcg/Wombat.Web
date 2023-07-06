@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.Web.Infrastructure", "Wombat.Web.Infrastructure\Wombat.Web.Infrastructure.csproj", "{2542262E-56FA-4665-B4D4-D94FF315EA0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.Web.Host", "Wombat.Web.Host\Wombat.Web.Host.csproj", "{2EA11851-93FE-4E99-8C8D-059528A97C7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2542262E-56FA-4665-B4D4-D94FF315EA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2542262E-56FA-4665-B4D4-D94FF315EA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2542262E-56FA-4665-B4D4-D94FF315EA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2542262E-56FA-4665-B4D4-D94FF315EA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA11851-93FE-4E99-8C8D-059528A97C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA11851-93FE-4E99-8C8D-059528A97C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA11851-93FE-4E99-8C8D-059528A97C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA11851-93FE-4E99-8C8D-059528A97C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A2ACFC2-1F02-4958-92B6-B16D2FC62B4C}
+	EndGlobalSection
+EndGlobal
