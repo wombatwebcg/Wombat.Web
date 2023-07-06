@@ -6,6 +6,8 @@
     <Authors>wombatwebcg</Authors>
     <Company>wombatwebcg</Company>
     <Description>网络通用基础库</Description>
+    <PackageProjectUrl>https://github.com/wombatwebcg/Wombat.Web</PackageProjectUrl>
+    <RepositoryType>https://github.com/wombatwebcg/Wombat.Web</RepositoryType>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="LinqKit" Version="1.2.3" />

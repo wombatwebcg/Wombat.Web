@@ -7,6 +7,9 @@
     <Authors>wombatwebcg</Authors>
     <Company>wombatwebcg</Company>
     <Description>通用类型主机</Description>
+    <PackageProjectUrl>https://github.com/wombatwebcg/Wombat.Web</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wombatwebcg/Wombat.Web</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 
