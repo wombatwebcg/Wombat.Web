@@ -34,7 +34,7 @@ namespace  Wombat.Web.Host
             hostBuilder.ConfigureServices((buidlerContext, services) =>
             {
                 var cacheOption = buidlerContext.Configuration.GetSection("Cache").Get<CacheOptions>();
-                switch (cacheOption.CacheType)
+                switch (cacheOption?.CacheType)
                 {
                     case CacheType.Memory: services.AddDistributedMemoryCache(); break;
                     case CacheType.Redis:
@@ -44,7 +44,10 @@ namespace  Wombat.Web.Host
                             services.AddSingleton(csredis);
                             services.AddSingleton<IDistributedCache>(new CSRedisCache(RedisHelper.Instance));
                         }; break;
-                    default: throw new Exception("缓存类型无效");
+                    default:
+                        LogHelper.LogException(new Exception("缓存类型无效"));
+                        break;
+
                 }
             });
 
