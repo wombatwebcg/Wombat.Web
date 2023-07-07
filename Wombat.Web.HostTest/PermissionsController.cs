@@ -32,7 +32,8 @@ namespace Wombat.Web.HostTest
         [AllowAnonymous]
         public string GetDevicesPermission()
         {
-           var devcieKey= _serviceProvider.GetService<IConfiguration>().GetSection($"Permissions:Devices").Get<string>();
+           var devcieKey= _serviceProvider.GetService<IConfiguration>()?.GetSection($"Permissions:Devices").Get<string>();
+            if(devcieKey==null)return string.Empty;
             var claims = new[]
             {
                 new Claim("Devcies",devcieKey)
