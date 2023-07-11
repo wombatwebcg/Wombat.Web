@@ -14,7 +14,7 @@ namespace  Wombat.Web.Host
         {
             services.Configure<JwtOptions>(configuration.GetSection("jwt"));
             var jwtOptions = configuration.GetSection("jwt").Get<JwtOptions>();
-
+            if (jwtOptions != null) {
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -35,7 +35,7 @@ namespace  Wombat.Web.Host
                     ValidateAudience = false,
                 };
             });
-
+            }
             return services;
         }
     }

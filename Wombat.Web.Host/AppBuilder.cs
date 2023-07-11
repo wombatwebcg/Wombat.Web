@@ -115,6 +115,10 @@ namespace Wombat.Web.Host
             if (app.Environment.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
 
             }
 
@@ -145,6 +149,8 @@ namespace Wombat.Web.Host
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseStaticFiles();
 
             ///匹配路由
             app.UseEndpoints(endpoints =>

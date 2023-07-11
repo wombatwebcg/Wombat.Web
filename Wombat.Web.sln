@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.Web.Infrastructure",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.Web.Host", "Wombat.Web.Host\Wombat.Web.Host.csproj", "{2EA11851-93FE-4E99-8C8D-059528A97C7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wombat.Web.HostTest", "Wombat.Web.HostTest\Wombat.Web.HostTest.csproj", "{724AF2EC-D1F3-4412-8834-0D8389B3A394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.Web.HostTest", "Wombat.Web.HostTest\Wombat.Web.HostTest.csproj", "{724AF2EC-D1F3-4412-8834-0D8389B3A394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
