@@ -9,9 +9,9 @@ using Wombat.Web.Host.Filters;
 
 namespace Wombat.Web.Host
 {
-    public static class AppBuilder
+    public static class HostBuilder
     {
-        public static WebApplicationBuilder AppServicesBuild(this WebApplicationBuilder builder,List<BaseActionFilterAsync> actionFilters = null, params string[] assemblyNames)
+        public static WebApplicationBuilder ServicesBuild(this WebApplicationBuilder builder,List<BaseActionFilterAsync> actionFilters = null, params string[] assemblyNames)
         {
             LogHelper.Build();
 

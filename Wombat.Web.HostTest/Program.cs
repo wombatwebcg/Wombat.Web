@@ -7,7 +7,7 @@ namespace Wombat.Web.HostTest
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.AppServicesBuild();
+            builder.ServicesBuild();
 
             var app = builder.Build();
 

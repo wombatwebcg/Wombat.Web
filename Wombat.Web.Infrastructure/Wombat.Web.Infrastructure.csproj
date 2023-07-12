@@ -11,6 +11,6 @@
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="LinqKit" Version="1.2.3" />
-		<PackageReference Include="Wombat.Infrastructure" Version="2.0.7" />
+		<PackageReference Include="Wombat.Infrastructure" Version="2.0.8" />
 	</ItemGroup>
 </Project>
